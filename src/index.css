@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* background-color: #2f4165; */
+  /* background-color: #a9c4eb; */
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 5.6em;
+  line-height: .9em;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #858585;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+.caption {
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  padding: 0;
+}
+
+.jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+  background: linear-gradient(#333, black);
+  opacity: 0.0;
+}
+
+.jumbotron .background-image {
+  height: 100%;
+  background-image: url("/img/clickyheader.jpg");
+  background-size: cover;
+}
+
+.jumbotron .caption {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron .caption h1,
+.jumbotron .caption p {
+  color: white;
+}
+
+/* .container {
+width: 100%;
+} */
+
+#root { 
+  width: 80%;
+  /* height: 100%; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1010px;
+}
+
+/* .alert {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  display: inline;
+  margin: 40px;
+} */
+

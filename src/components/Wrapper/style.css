@@ -1,0 +1,15 @@
+.wrapper {
+  /* margin-top: -120px; */
+  /* z-index: 1117 !important; */
+  /* background: #ffffff; */
+  /* height: 130%; */
+  display: flex;
+  flex-flow: row wrap;
+  /* padding: 50px; */
+  justify-content: space-around;
+  align-content: flex-start;
+  /* overflow: auto; */
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
